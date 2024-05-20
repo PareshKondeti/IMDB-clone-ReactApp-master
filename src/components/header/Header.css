@@ -1,0 +1,49 @@
+ .header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color:#f5c518;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+
+
+.imdb-logo-link {
+    text-decoration: none;
+    color: #f5c518; /* IMDb logo color */
+    font-family: 'Arial Black', sans-serif; /* IMDb logo font */
+    font-size: 2rem; /* IMDb logo font size */
+    letter-spacing: 2px; /* IMDb logo letter spacing */
+    display: inline-block; /* Ensure the link takes the width of its content */
+  }
+  
+.imdb-logo-text {
+    font-weight: bold; /* IMDb logo text weight */
+  }
+  
